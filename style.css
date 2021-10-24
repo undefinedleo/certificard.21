@@ -1,0 +1,204 @@
+/*fonte*/
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap");
+/*corpo da página */
+body {
+  font-family: "Open Sans", sans-serif;
+  background-image: url("https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  background: linear-gradient(to top, #1a044d 10%, #c931b8 40%, #6229d0);
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 600px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.perfil-foto:hover {
+  transform: scale(1.1);
+  transition-duration: 1s;
+}
+.titulo {
+  margin-top: 10px;
+  margin-left: 16px;
+  font-size: 10px;
+  color: #fcfcfc;
+}
+.titulo1 h1 {
+  font-weight: 700;
+  font-size: 23px;
+  color: #fcfcfc;
+  cursor: default;
+}
+.titulo h1:hover {
+  transform: scale(0.98);
+  transition-duration: 1s;
+  color: #009fff;
+  ext-shadow: 20px 20px 20px #000, 20px 20px 20px #009fff;
+}
+.titulo h4 {
+  font-weight: 700;
+  font-size: 15px;
+  color: #fcfcfc;
+  cursor: default;
+} 
+.titulo h4:hover {
+    transform: scale(0.98);
+  transition-duration: 1s;
+  color: #009fff;
+  ext-shadow: 20px 20px 20px #000, 20px 20px 20px #009fff;
+}
+.titulo h3 {
+  font-weight: 400;
+  font-size: 14px;
+  color: #fcfcfc;
+  cursor: default;
+}
+.titulo h3:hover{
+  transform: scale(1);
+  transition-duration: 1s;
+  color: #009fff;
+  ext-shadow: 20px 20px 20px #000, 20px 20px 20px #009fff
+}
+.tema button {
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 12px;
+  padding: 8px 16px;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+  box-sizing: border-box;
+}
+.imgDark {
+	transition: 200ms;
+	width: 20px;
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+.projetos {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to right, #009fff, #d3cce3, #6229d0);
+  margin-top: 15px;
+  padding: 12px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  border-radius: 30px;
+  background-size: 600% 600%;
+  -webkit-animation: GradientAnimation 15s ease infinite;
+  -moz-animation: GradientAnimation 15s ease infinite;
+  animation: GradientAnimation 15s ease infinite;
+}
+@-webkit-keyframes GradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@-moz-keyframes GradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes GradientAnimation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+.projetos-item {
+  list-style-type: none;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.projetos-item a {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 17px;
+  font-weight: 400;
+  color: #fcfcfc;
+}
+.projetos a img {
+  opacity: 0;
+  position: absolute;
+  width: 350px;
+  border-radius: 10px;
+  right: 45px;
+  top: 70px;
+  transition: 200ms;
+}
+
+.tituloP {
+  font-weight: 700;
+  font-size: 17px;
+  color: #fcfcfc;
+  cursor: default;
+}
+.tituloP:hover {
+  transform: scale(0.97);
+  transition-duration: 1s;
+  color: #009fff;
+  ext-shadow: 20px 20px 20px #000, 20px 20px 20px #009fff
+}
+.dark {
+  background: linear-gradient(to right, #bdc3c7, #2c3e50);
+}
+.dark .projetos {
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+}
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+.dark .tema button { */
+   background: #1c1c1c;
+   color: #ffffff; */
+   border: 2px solid #f7f7f7;
+ } 
+footer {
+	justify-content: center;
+	display: flex;
+	padding: 3px 0;
+}
+footer a img {
+	margin: 5px;
+	height: 30px;
+	width: fit-content;
+}
