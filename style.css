@@ -30,28 +30,26 @@ body {
   max-height: 160px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
 .perfil-foto:hover {
   transform: scale(1.1);
   transition-duration: 1s;
 }
+
 .titulo {
   margin-top: 10px;
   margin-left: 16px;
   font-size: 10px;
   color: #fcfcfc;
 }
+
 .titulo h1 {
   font-weight: 700;
   font-size: 23px;
   color: #fcfcfc;
   cursor: default;
 }
-.titulo h1:hover {
-  transform: scale(1);
-  transition-duration: 1s;
-  color: #009fff;
-  ext-shadow: 20px 20px 20px #000, 20px 20px 20px #009fff;
-}
+
 .titulo h4 {
   font-weight: 700;
   font-size: 15px;
@@ -59,24 +57,21 @@ body {
   padding-left: 20px;
   cursor: default;
 }
+
 .titulo h4:hover {
   transform: scale(1);
   transition-duration: 1s;
   color: #009fff;
   ext-shadow: 20px 20px 20px #000, 20px 20px 20px #009fff;
 }
+
 .titulo h3 {
   font-weight: 400;
   font-size: 14px;
   color: #fcfcfc;
   cursor: default;
 }
-.titulo h3:hover {
-  transform: scale(1);
-  transition-duration: 1s;
-  color: #009fff;
-  ext-shadow: 20px 20px 20px #000, 20px 20px 20px #009fff;
-}
+
 .tema button {
   align-self: flex-end;
   font-weight: 400;
@@ -84,12 +79,14 @@ body {
   padding: 8px 16px;
   border-radius: 100px 2px solid #0e1d2f border-box;
 }
+
 .imgDark {
   width: 20px;
   cursor: pointer;
   border: none;
   background: transparent;
 }
+
 .projetos {
   position: relative;
   display: flex;
@@ -104,6 +101,7 @@ body {
   -moz-animation: GradientAnimation 15s ease infinite;
   animation: GradientAnimation 15s ease infinite;
 }
+
 @-webkit-keyframes GradientAnimation {
   0% {
     background-position: 0% 50%;
@@ -115,6 +113,7 @@ body {
     background-position: 0% 50%;
   }
 }
+
 @-moz-keyframes GradientAnimation {
   0% {
     background-position: 0% 50%;
@@ -126,6 +125,7 @@ body {
     background-position: 0% 50%;
   }
 }
+
 @keyframes GradientAnimation {
   0% {
     background-position: 0% 50%;
@@ -137,12 +137,14 @@ body {
     background-position: 0% 50%;
   }
 }
+
 .projetos-item {
   list-style-type: none;
   font-size: 14px;
   font-weight: 400;
   line-height: 36px;
 }
+
 
 .projetos-item a {
   text-decoration: none;
@@ -151,6 +153,7 @@ body {
   font-weight: 400;
   color: #fcfcfc;
 }
+
 .projetos a img {
   opacity: 0;
   position: absolute;
@@ -161,33 +164,39 @@ body {
   transition: 200ms;
 }
 
-.tituloP {
+.tituloP h2{
   font-weight: 700;
   font-size: 17px;
   color: #fcfcfc;
   cursor: default;
 }
-.tituloP:hover {
+
+.tituloP h2:hover {
   transform: scale(1);
   transition-duration: 1s;
   color: #009fff;
   ext-shadow: 20px 20px 20px #000, 20px 20px 20px #009fff;
 }
+
 .dark {
   background: linear-gradient(to right, #bdc3c7, #2c3e50);
 }
+
 .dark .projetos {
   background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
+
 .dark .container {
   background: #333439;
   color: #f6f6f6;
 }
+
 .dark .tema button {
   background: #1c1c1c;
   color: #ffffff;
   border: 2px solid #f7f7f7;
 }
+
 footer {
   justify-content: center;
   display: flex;
