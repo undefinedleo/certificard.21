@@ -1,13 +1,11 @@
 /*fonte*/
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Roboto&display=swap");
 /*corpo da página */
-body {
+* {
   font-family: "Open Sans", sans-serif;
-  background-image: url("https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg");
-  background-size: cover;
-  background-position: center top;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
+}
+body {
+  background: url("https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg") cover center top no-repeat fixed;
 }
 .container {
   background: linear-gradient(to top, #1a044d 10%, #c931b8 40%, #6229d0);
@@ -58,6 +56,7 @@ body {
   font-weight: 700;
   font-size: 15px;
   color: #fcfcfc;
+  padding-left: 20px;
   cursor: default;
 }
 .titulo h4:hover {
@@ -83,9 +82,7 @@ body {
   font-weight: 400;
   font-size: 12px;
   padding: 8px 16px;
-  border-radius: 100px;
-  border: 2px solid #0e1d2f;
-  box-sizing: border-box;
+  border-radius: 100px 2px solid #0e1d2f border-box;
 }
 .imgDark {
   width: 20px;
@@ -173,7 +170,7 @@ body {
 .tituloP:hover {
   transform: scale(1);
   transition-duration: 1s;
-  color: #000000;
+  color: #009fff;
   ext-shadow: 20px 20px 20px #000, 20px 20px 20px #009fff;
 }
 .dark {
@@ -195,9 +192,4 @@ footer {
   justify-content: center;
   display: flex;
   padding: 3px 0;
-}
-footer a img {
-  margin: 5px;
-  height: 30px;
-  width: fit-content;
 }
