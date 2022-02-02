@@ -188,13 +188,15 @@ body {
   color: #ffffff;
   border: 2px solid #f7f7f7;
 }
-footer {
+footer p {
   justify-content: center;
   display: flex;
   padding: 3px 0;
+  color: #FFFFFF;
+  text-decoration: underline wavy;
 }
-footer a img {
+/* footer a img {
   margin: 5px;
   height: 30px;
   width: fit-content;
-}
+} */
