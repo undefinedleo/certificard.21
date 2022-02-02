@@ -188,7 +188,7 @@ body {
   color: #ffffff;
   border: 2px solid #f7f7f7;
 }
-footer p {
+p {
   justify-content: center;
   display: flex;
   padding: 3px 0;
