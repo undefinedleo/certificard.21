@@ -11,7 +11,7 @@ body {
 }
 .container {
   background: linear-gradient(to top, #1a044d 10%, #c931b8 40%, #6229d0);
-  color: #1c1c1c;
+/*   color: #1c1c1c; */
   margin: 64px;
   border-radius: 20px;
   box-shadow: 6px 6px 6px #0e1d2f;
